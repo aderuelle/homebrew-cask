@@ -2,12 +2,11 @@
 # Unify Circuit Messaging Desktop App
 #
 cask 'circuit' do
-  version :latest
-  sha256 :no_check
+  version '1.2.8202'
+  sha256 'a50b424ed7e27ac7eaada8d7d00f69921d0c6bd4082cf6e0502cc18135b81764'
 
-  # To find the download link, in the web app you have to navigate to Settings > Extensions
   # eu.yourcircuit.com was verified as official when first introduced to the cask
-  url 'https://eu.yourcircuit.com/desktop/releases/mac/Circuit.dmg'
+  url "https://eu.yourcircuit.com/desktop/releases/mac/Circuit-#{version}.dmg"
   name 'Circuit'
   name 'Unify Circuit'
   name 'Circuit Desktop Application'
